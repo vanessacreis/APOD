@@ -79,8 +79,11 @@ body {
 }
 
 .cx2 img {
-  max-width: 650px;
-  object-fit: contain;
+  max-width: 700px;
+  min-width: 650px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 10px;
 }
 
 #titulo {
