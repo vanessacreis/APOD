@@ -89,7 +89,8 @@ body {
   max-height: 100%;
   object-fit: contain;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px #734d2d;
 }
 
 #titulo {
