@@ -27,7 +27,7 @@ body {
   width: 95%;
   height: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 35px;
 }
 
@@ -43,14 +43,14 @@ body {
 
 #astro {
   color: #0d0d0d;
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase;
   text-shadow: 2px 2px #bf612a;
 }
 
 #pod {
   color: #734d2d;
-  font-size: 30px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 
@@ -85,8 +85,9 @@ body {
 
 .cx2 img {
   max-width: 700px;
-  min-width: 650px;
-  object-fit: cover;
+  min-width: 470px;
+  max-height: 100%;
+  object-fit: contain;
   margin: auto;
   border-radius: 10px;
 }
