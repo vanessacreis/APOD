@@ -43,21 +43,27 @@ body {
 
 #astro {
   color: #0d0d0d;
-  font-size: 45px;
+  font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px #bf612a;
 }
 
 #pod {
   color: #734d2d;
-  font-size: 28px;
+  font-size: 30px;
   text-transform: uppercase;
+  border-bottom: 3px solid #734d2d;
+}
+
+#escolha {
+  color: #0d0d0d;
+  margin-top: 15px;
 }
 
 #date {
   width: 200px;
   height: 35px;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-family: "Strait", sans-serif;
   text-align: center;
@@ -78,7 +84,7 @@ body {
 }
 
 .cx2 {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -108,4 +114,20 @@ body {
   height: 60px;
   color: #0d0d0d;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cx1 {
+    width: 100%;
+  }
+
+  .cx2 {
+    width: 100%;
+  }
 }
