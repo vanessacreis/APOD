@@ -96,7 +96,6 @@ body {
   object-fit: contain;
   margin: auto;
   border-radius: 15px;
-  box-shadow: 3px 3px #734d2d;
 }
 
 #titulo {
@@ -118,6 +117,7 @@ body {
 
 @media (max-width: 700px) {
   .container {
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +127,28 @@ body {
     width: 100%;
   }
 
+  #astro {
+    font-size: 55px;
+  }
+
+  #pod {
+    font-size: 38px;
+    text-shadow: 2px 2px #0d0d0d;
+  }
+
+  #escolha {
+    font-size: 22px;
+  }
+
+  #texto {
+    font-size: 20px;
+  }
+
   .cx2 {
     width: 100%;
+  }
+
+  #foto {
+    width: 75%;
   }
 }
